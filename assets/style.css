@@ -115,3 +115,15 @@ img.hero {
   border-radius: 0 0 6px 6px;
   margin-top: -6px;
 }
+.contact-persoon {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-persoon img.portret {
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
