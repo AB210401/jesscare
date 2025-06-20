@@ -85,3 +85,11 @@ img.hero {
   from { transform: translateY(-100%); }
   to { transform: translateY(0); }
 }
+header.logo-only {
+  justify-content: flex-start;
+  padding: 40px 30px;
+}
+
+header.logo-only img {
+  height: 100px;
+}
