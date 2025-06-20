@@ -69,5 +69,15 @@
   <footer>
     &copy; 2025 Thuisverpleging Jess en Team – Alle rechten voorbehouden
   </footer>
+  <script>
+  const knoppen = document.querySelectorAll('.dienst-knop');
+
+  knoppen.forEach(knop => {
+    knop.addEventListener('click', () => {
+      const uitleg = knop.nextElementSibling;
+      uitleg.style.display = uitleg.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
 </body>
 </html>
