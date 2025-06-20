@@ -127,3 +127,12 @@ img.hero {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   margin-bottom: 10px;
 }
+.strook-bereikbaar {
+  background-color: #00a39d;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
