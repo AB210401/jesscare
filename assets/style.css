@@ -93,14 +93,17 @@ header.logo-only {
 header.logo-only img {
   height: 100px;
 }
-.hero-logo {
-  text-align: center;
-  padding: 60px 20px 30px;
-  background-color: #ffffff;
+.hero-logo-fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* vult het hele scherm */
+  padding: 0;
+  background: transparent; /* geen kleur, dus logo “zweeft” */
 }
 
-.hero-logo img {
-  max-width: 320px;
-  width: 90%;
+.hero-logo-fill img {
+  max-width: 90%;
+  max-height: 80vh;
   height: auto;
 }
