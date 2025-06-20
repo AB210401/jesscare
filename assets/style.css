@@ -136,3 +136,17 @@ img.hero {
   font-size: 15px;
   letter-spacing: 0.5px;
 }
+.review-banner {
+  background-color: #e7f5ff;
+  color: #004080;
+  text-align: center;
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  border-bottom: 2px solid #cce0ff;
+}
+
+.review-banner a {
+  color: #0066cc;
+  text-decoration: underline;
+}
