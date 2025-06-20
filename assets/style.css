@@ -101,9 +101,11 @@ header.logo-only img {
   padding: 0;
   background: transparent; /* geen kleur, dus logo “zweeft” */
 }
-
 .hero-logo-fill img {
-  max-width: 90%;
-  max-height: 80vh;
+  width: auto;
   height: auto;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: contain;
+  aspect-ratio: 3 / 1; /* Rechthoekige verhouding */
 }
