@@ -85,3 +85,33 @@ img.hero {
   from { transform: translateY(-100%); }
   to { transform: translateY(0); }
 }
+.dienst {
+  margin-bottom: 15px;
+}
+
+.dienst-knop {
+  width: 100%;
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.dienst-knop:hover {
+  background-color: #006666;
+}
+
+.dienst-uitleg {
+  display: none;
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+  border-left: 4px solid #008080;
+  border-radius: 0 0 6px 6px;
+  margin-top: -6px;
+}
