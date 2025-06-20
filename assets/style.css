@@ -93,3 +93,14 @@ header.logo-only {
 header.logo-only img {
   height: 100px;
 }
+.hero-logo {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background-color: #ffffff;
+}
+
+.hero-logo img {
+  max-width: 320px;
+  width: 90%;
+  height: auto;
+}
