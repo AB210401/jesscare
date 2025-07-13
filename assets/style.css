@@ -300,3 +300,24 @@ img.hero {
   height: auto;
   max-width: none;
 }
+.logo-banner {
+  width: 100%;
+  background-color: #e9f7f7;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo-banner {
+  width: 100%;
+  background-color: #e9f7f7;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo-banner img {
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
