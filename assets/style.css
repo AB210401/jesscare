@@ -295,3 +295,8 @@ img.hero {
   margin-top: -6px;
   margin-bottom: 10px;
 }
+.logo-container img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
