@@ -150,3 +150,38 @@ img.hero {
   color: #0066cc;
   text-decoration: underline;
 }
+.team-member {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.team-member.even {
+  flex-direction: row;
+}
+
+.team-member.odd {
+  flex-direction: row-reverse;
+}
+
+.team-member img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.team-member .info {
+  flex: 1;
+}
+
+.team-member h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.team-member p {
+  margin: 5px 0;
+}
