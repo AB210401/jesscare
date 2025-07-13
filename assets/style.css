@@ -310,8 +310,11 @@ img.hero {
 
 .slide img {
   width: 100%;
-  height: auto;
+  height: 400px;
+  object-fit: cover;
   display: block;
+}
+
 }
 
 .fade {
