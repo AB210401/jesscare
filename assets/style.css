@@ -250,3 +250,41 @@ img.hero {
   color: #006666;
   font-weight: bold;
 }
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f5faff;
+  border-bottom: 2px solid #ddeeff;
+  flex-wrap: wrap;
+}
+
+.top-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.top-button.review {
+  background-color: #e0f0ff;
+  color: #004080;
+  border: 1px solid #b0d0ff;
+}
+
+.top-button.review:hover {
+  background-color: #d0e8ff;
+}
+
+.top-button.bereikbaar {
+  background-color: #e7ffe7;
+  color: #205020;
+  border: 1px solid #a0d0a0;
+}
+
+.top-button.bereikbaar:hover {
+  background-color: #d5ffd5;
+}
