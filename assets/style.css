@@ -150,38 +150,49 @@ img.hero {
   color: #0066cc;
   text-decoration: underline;
 }
-.team-member {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #eef7f6; /* zachte groen-blauwe tint */
-  padding: 20px;
-  margin-bottom: 32px;
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  padding: 40px 20px;
+}
+
+.team-box {
+  background-color: #f0fbf9;
+  border: 2px solid #cdeeea;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-.team-member img {
-  width: 200px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-.team-member .info {
+  padding: 20px;
   text-align: center;
-  margin-top: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-.team-member h3 {
-  font-size: 1.5rem;
-  color: #3ca39f; /* accentkleur voor de naam */
-  margin-bottom: 6px;
+.team-box img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.team-member p {
-  margin: 4px 0;
-  color: #333;
-  font-size: 1rem;
+.team-box h3 {
+  margin: 10px 0 8px;
+  color: #007f77;
+  font-size: 1.3rem;
 }
+
+.team-box ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0 auto 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+.team-box a {
+  text-decoration: none;
+  color: #006666;
+  font-weight: bold;
+}
+
 
