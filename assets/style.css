@@ -288,3 +288,10 @@ img.hero {
 .top-button.bereikbaar:hover {
   background-color: #d5ffd5;
 }
+.subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #007f77;
+  margin-top: -6px;
+  margin-bottom: 10px;
+}
