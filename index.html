@@ -44,7 +44,15 @@
   </a>
 </div>
   <header>
-<img src="assets/logo.svg" alt="Logo" />
+<div class="slideshow-container">
+  <div class="slide fade">
+    <img src="assets/jess-home.jpg" alt="Teamfoto 1">
+  </div>
+  <div class="slide fade">
+    <img src="assets/logo.svg" alt="Teamfoto 2">
+  </div>
+</div>
+
 </div>
     <h1>Thuisverpleging Jess en Team</h1>
   </header>
@@ -90,5 +98,22 @@
   <p>&copy; 2025 Thuisverpleging Jess en Team – Alle rechten voorbehouden</p>
   <p>BTW: BE 1018.166.438 &nbsp;•&nbsp; RIZIV: 4-28653-60-408</p>
 </footer>
+  <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  const slides = document.getElementsByClassName("slide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 4000);
+}
+</script>
+
 </body>
 </html>
