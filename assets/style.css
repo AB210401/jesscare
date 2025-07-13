@@ -315,8 +315,6 @@ img.hero {
   display: block;
 }
 
-}
-
 .fade {
   animation: fadeEffect 1s ease-in-out;
 }
