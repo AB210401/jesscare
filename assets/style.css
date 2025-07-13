@@ -295,3 +295,31 @@ img.hero {
   margin-top: -6px;
   margin-bottom: 10px;
 }
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fade {
+  animation: fadeEffect 1s ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+
