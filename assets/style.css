@@ -314,6 +314,11 @@ img.hero {
   object-fit: cover;
   display: block;
 }
+@media (max-width: 600px) {
+  .slide img {
+    height: 300px;
+  }
+}
 
 .fade {
   animation: fadeEffect 1s ease-in-out;
